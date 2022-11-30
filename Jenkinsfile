@@ -23,7 +23,7 @@ pipeline{
         }
         stage('5-welcomeMessage'){
             steps{
-                echo "Welcome to pipeline as code"
+                echo "Welcome to my pipeline as code"
             }
         }
     }
