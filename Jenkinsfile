@@ -21,5 +21,10 @@ pipeline{
                 sh 'cat /etc/os-release'
             }
         }
+        stage('5-welcomeMessage'){
+            steps{
+                sh "Welcome to pipeline as code"
+            }
+        }
     }
 }
